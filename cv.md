@@ -38,3 +38,6 @@ console.log(
 * Web Development for Beginners: HTML and CSS (*finished*)
 ![stepic](https://user-images.githubusercontent.com/99031179/171876756-3b0130dc-841b-4f44-aba0-11f58faf4eb5.png)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (*in the process*)
+## Languages
+* **English** Pre-intermediate 
+* **Russian** Native
