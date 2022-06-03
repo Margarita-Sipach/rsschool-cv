@@ -19,7 +19,7 @@ I graduated lyceum BNTU. Now I'm 20 years old and studying at the university BSU
     + SQL (MySql, MS Sql)
 * **Other**
     + Git, GitHub
- ## Сode example
+## Сode example
 *Напишите однострочное решение, которое вычисляет сумму квадратных корней для всех чётных чисел целочисленного массива.*
 ```
 console.log(
