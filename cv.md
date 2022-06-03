@@ -33,3 +33,8 @@ console.log(
 ```
 ## Work experience
 [My CV](адрес "https://margarita-sipach.github.io/rsschool-cv/cv")
+## Education and courses
+* Belarusian State University of Informatics and Radioelectronics (*3 course*)
+* Web Development for Beginners: HTML and CSS (*finished*)
+![stepic](https://user-images.githubusercontent.com/99031179/171876756-3b0130dc-841b-4f44-aba0-11f58faf4eb5.png)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (*in the process*)
