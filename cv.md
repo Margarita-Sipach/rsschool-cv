@@ -31,3 +31,5 @@ console.log(
    .reduceRight((accumulator, element) => accumulator + Math.sqrt(element), 0)
 ); // 6
 ```
+## Work experience
+[My CV](адрес "https://margarita-sipach.github.io/rsschool-cv/cv")
