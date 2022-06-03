@@ -5,7 +5,7 @@
 * **Email** margarita.sipach@gmail.com
 * **Github** [Margarita-Sipach](адрес "https://github.com/Margarita-Sipach")
 ## Brief information about myself
-> I graduated lyceum BNTU. Now I'm 20 years old and studying at the university BSUIR. Currently I develop my skills in Frontent Development.
+I graduated lyceum BNTU. Now I'm 20 years old and studying at the university BSUIR. Currently I develop my skills in Frontent Development.
 ## My skills and knowledge
 * **Frontend**
     + HTML
