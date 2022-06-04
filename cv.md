@@ -32,7 +32,7 @@ console.log(
 ); // 6
 ```
 ## Work experience
-[My CV](адрес "https://margarita-sipach.github.io/rsschool-cv/cv")
+[My CV](адрес "https://Margarita-Sipach.github.io/rsschool-cv/cv")
 ## Education and courses
 * Belarusian State University of Informatics and Radioelectronics (*3 course*)
 * Web Development for Beginners: HTML and CSS (*finished*)
