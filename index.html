@@ -9,13 +9,20 @@
 	<link rel="icon" href="img/favicon.ico">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Joan&family=Roboto&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header class="header">
 		<div class="container">
 			<div class="header-main">
-				
+				<div class="main-part">
 					<img src="img/avatar.jpg" alt="This is my photo"  class="avatar">
 					<h1 class="fullname">
 						Margarita Sipach
@@ -23,6 +30,7 @@
 					<div class="profession">
 						Junior Frontend Developer
 					</div>
+				</div>
 				<nav class="nav">
 					<p class="menu">Menu</p>
 					<ul class="nav-list">
@@ -61,31 +69,27 @@
 				<h2 class="title">Skills and Knowledge</h2>
 				<div class="content">
 					<ul class="skillknow-list">
-						<li class="skillknow-item">HTML</li>
-						<li class="skillknow-item">CSS (SCSS, SASS)</li>
-						<li class="skillknow-item">JavaScript</li>
-						<li class="skillknow-item">Git (Github)</li>
+						<li class="skillknow-item "><i class="fa-brands fa-html5"></i>HTML</li>
+						<li class="skillknow-item"><i class="fa-brands fa-css3"></i>CSS (SCSS, SASS)</li>
+						<li class="skillknow-item"><i class="fa-brands fa-node-js"></i>JavaScript</li>
+						<li class="skillknow-item"><i class="fa-brands fa-git"></i>Git (Github)</li>
 					</ul>
 				</div>
 			</section>
 			<section class="section" id="code">
-				<h2 class="title">Code</h2>
-				<div class="content">
-					<p class="code">Напишите однострочное решение, которое вычисляет сумму квадратных корней для всех чётных чисел целочисленного массива.</p>				
+				<h2 class="title">Code</h2>	
 				<code>
-					console.log(<br>// Входной массив<br>[1, 4, 3, 0, 4, 5, 4]<br>// Оставляем только чётные числа<br>.filter(element => !(element % 2))<br>
-					// Считаем квадратный корень и записываем в аккумулятор<br>.reduceRight((accumulator, element) => accumulator + Math.sqrt(element), 0)<br>); // 6
+					console.log(<br>[1, 4, 3, 0, 4, 5, 4]<br>.filter(element => !(element % 2))<br>.reduceRight((accumulator, element) => accumulator + Math.sqrt(element), 0)<br>);
 				</code>
-				</div>
 			</section>
 			<section class="section" id="projects">
 				<h2 class="title">Projects</h2>
 				<div class="content">
 					<ul class="projects-list">
-						<li class="projects-item"><a href="https://margarita-sipach.github.io/wayup/" class="projects-link">WAYUP</a></li>
-						<li class="projects-item"><a href="https://Margarita-Sipach.github.io/rsschool-cv/cv" class="projects-link">CV</a></li>
-						<li class="projects-item">Coming soon...</li>
+						<li class="projects-item"><a href="https://margarita-sipach.github.io/wayup/" class="projects-link"><img src="img/wayup.png" alt="project wayup"></a></li>
+						<li class="projects-item"><a href="https://Margarita-Sipach.github.io/rsschool-cv/cv" class="projects-link"><img src="img/cv.png" alt="project cv"></a></li>
 					</ul>
+					<p class="project">Coming soon...</p>
 				</div>
 			</section>
 			<section class="section" id="educourse">
