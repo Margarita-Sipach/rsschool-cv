@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 1.3;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,247,254,1) 0%, rgba(255,253,255,1) 50%, rgba(242,240,245,1) 100%);
+ }
+
+ html {
+	scroll-behavior: smooth; 
+ }
+/*--------------------*/
+
+*{
+	font: 20px Roboto;;
+}
+
+
+.header *{
+	color: rgba(242,240,245,1);
+	
+}
+
+.fullname{
+	font: 30px Joan;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.nav{
+	font-size: 20px;
+}
+
+
+.title{
+	font: 30px Joan;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.section{
+	border-top: 1px dotted black;
+	padding: 80px;
+}
+
+
+/*----------------------*/
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+ }
+
+.profession{
+	font: italic 20px Roboto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+.header .container{
+	height: 940px;
+	background: url(img/main.jpg) no-repeat;
+	background-size: cover;
+	
+}
+
+.header-main{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 25%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 60px 35px;
+}
+
+.avatar{
+	width: 100%;
+	margin-bottom: 30px;
+	border-radius: 2%;;
+}
+
+.menu{
+	font-family: 40px Joan;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.nav-list{
+	padding: 0 20px;
+}
+
+.nav-item{
+	font-size: 20px;
+	padding-top: 8px;
+	list-style: square;
+}
+
+.nav-item:hover, a:hover{
+	opacity: 0.7;
+	transition: 0.2s;
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+.contact-list{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-item{
+	text-align: center;
+	background: rgb(242,240,245,0.5); 
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 25px;
+	width: 300px;
+}
+
+.contact-item p{
+	margin-top: 20px;
+}
+
+
+.contact-list a{
+	font-size: 100px;
+	color: black;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+.skillknow-list{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.skillknow-item{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background: rgb(242,240,245,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 25px;
+	width: 300px;
+}
+
+.skillknow-item i{
+	font-size: 100px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+code{
+	font-family: Source Code Pro;
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+.projects-list{
+	display: flex;
+	justify-content: space-between;
+	/* flex-direction: column-reverse; */
+	margin-bottom: 20px;
+
+}
+
+.projects-item img{
+	width: 620px;
+
+}
+
+.projects-item{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.822);
+}
+
+
+.project{
+	font-style: italic;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+.educourse-item{
+	font-size: 20px;
+	padding-top: 8px;
+	list-style: square;
+}
+
+.educourse-list{
+	padding: 30px;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+.lang-item{
+	font-size: 20px;
+	padding-top: 8px;
+	list-style: square;
+}
+
+.lang-list{
+	padding: 30px;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+.footer-list{
+	display: flex;
+	justify-content: space-between;
+	font-size: 200px;
+	align-items: center;
+	padding: 50px 0;
+
+}
+
+
+.footer-item img{
+	width: 200px;
+}
+
+.github{
+
+	font-size: 120px;
+	color: rgb(0, 0, 0);
+}
+
+.footer-list{
+	border-top: 1px dotted black;
+}
+
+.year{
+	font: 50px Joan;
+	color: rgb(0, 0, 0);
+
+}

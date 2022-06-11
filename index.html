@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Margarita Sipach's CV</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Joan&family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-main">
+				<div class="main-part">
+					<img src="img/avatar.jpg" alt="This is my photo"  class="avatar">
+					<h1 class="fullname">
+						Margarita Sipach
+					</h1>
+					<div class="profession">
+						Junior Frontend Developer
+					</div>
+				</div>
+				<nav class="nav">
+					<p class="menu">Menu</p>
+					<ul class="nav-list">
+						<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+						<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+						<li class="nav-item"><a href="#skillknow" class="nav-link">Skills and Knowledge</a></li>
+						<li class="nav-item"><a href="#code" class="nav-link">Сode</a></li>
+						<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+						<li class="nav-item"><a href="#educourse" class="nav-link">Education and Courses</a></li>
+						<li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<section class="section" id="contacts">
+				<h2 class="title">Contacts</h2>
+				<div class="content">
+					<ul class="contact-list">
+						<li class="contact-item "><a href="tel:+375293662633" class="fa-solid fa-phone"><p>+375-29-366-26-33</p></a></li>
+						<li class="contact-item "><a href="mailto:margarita.sipach@gmail.com" class="fa-solid fa-at"><p>margarita.sipach@gmail.com</p></a></li>
+						<li class="contact-item"><a href="https://telegram.me/Margarita_Sipach" class="fa-brands fa-telegram"><p>Margarita_Sipach</p></a></li>
+						<li class="contact-item "><a href="https://github.com/Margarita-Sipach" class="fa-brands fa-github"><p>Margarita-Sipach</p></a></li>					
+					</ul>
+				</div>
+			</section>
+			<section class="section" id="summary">
+				<h2 class="title">Summary</h2>
+				<div class="content">
+					<p class="summary">I graduated lyceum BNTU. Now I'm 20 years old and studying at the university BSUIR. Currently I develop my skills in Frontent Development.</p>
+				</div>
+			</section>
+			<section class="section" id="skillknow">
+				<h2 class="title">Skills and Knowledge</h2>
+				<div class="content">
+					<ul class="skillknow-list">
+						<li class="skillknow-item "><i class="fa-brands fa-html5"></i>HTML</li>
+						<li class="skillknow-item"><i class="fa-brands fa-css3"></i>CSS (SCSS, SASS)</li>
+						<li class="skillknow-item"><i class="fa-brands fa-node-js"></i>JavaScript</li>
+						<li class="skillknow-item"><i class="fa-brands fa-git"></i>Git (Github)</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section" id="code">
+				<h2 class="title">Code</h2>	
+				<code>
+					console.log(<br>[1, 4, 3, 0, 4, 5, 4]<br>.filter(element => !(element % 2))<br>.reduceRight((accumulator, element) => accumulator + Math.sqrt(element), 0)<br>);
+				</code>
+			</section>
+			<section class="section" id="projects">
+				<h2 class="title">Projects</h2>
+				<div class="content">
+					<ul class="projects-list">
+						<li class="projects-item"><a href="https://margarita-sipach.github.io/wayup/" class="projects-link"><img src="img/wayup.png" alt="project wayup"></a></li>
+						<li class="projects-item"><a href="https://Margarita-Sipach.github.io/rsschool-cv/cv" class="projects-link"><img src="img/cv.png" alt="project cv"></a></li>
+					</ul>
+					<p class="project">Coming soon...</p>
+				</div>
+			</section>
+			<section class="section" id="educourse">
+				<h2 class="title">Education and Courses</h2>
+				<div class="content">
+					<ul class="educourse-list">
+						<li class="educourse-item">Belarusian State University of Informatics and Radioelectronics (<i>3 course</i>)</li>
+						<li class="educourse-item">Web Development for Beginners: HTML and CSS (<i>finished</i>)</li>
+						<li class="educourse-item">RS Schools Course «JavaScript/Front-end. Stage 0» (<i>in the process</i>)</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section" id="lang">
+				<h2 class="title">Languages</h2>
+				<div class="content">
+					<ul class="lang-list">
+						<li class="lang-item">English <i>(pre-intermediate)</i></li>
+						<li class="lang-item">Russian <i>(native)</i></li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<ul class="footer-list">
+				<li class="footer-item"><a href="https://github.com/Margarita-Sipach" class="fa-brands fa-github github"></a></li>
+				<li class="footer-item"><p class="year">2022</p></li>
+				<li class="footer-item"><a href="https://rs.school/js/" class="logo"><img src="img/logo.png" alt="Course's logo" ></a></li>
+			</ul>
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/fb02b53faa.js" crossorigin="anonymous"></script>
+</body>
+</html>
