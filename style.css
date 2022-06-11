@@ -72,4 +72,91 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+ }
+
+ html {
+	scroll-behavior: smooth; 
+ }
 /*--------------------*/
+
+*{
+	font-family: Roboto;;
+}
+
+
+header *{
+	color: aliceblue;
+	
+}
+
+h1{
+	font: 30px Joan;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+nav{
+	font-size: 20px;
+}
+
+
+/*----------------------*/
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+ }
+
+.profession{
+	font: italic 20px Roboto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+header .container{
+	height: 800px;
+	background: url(img/main.jpg) no-repeat;
+	background-size: contain;
+	
+}
+
+.header-main{
+	width: 25%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 35px;
+}
+
+.avatar{
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 2%;;
+}
+
+.menu{
+	font-family: 40px Joan;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.nav-list{
+	padding: 0 20px;
+}
+
+.nav-item{
+	font-size: 20px;
+	padding-top: 8px;
+	list-style: square;
+}
+
+.nav-item:hover, a:hover{
+	opacity: 0.7;
+	transition: 0.2s;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
