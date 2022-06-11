@@ -76,6 +76,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,247,254,1) 0%, rgba(255,253,255,1) 50%, rgba(242,240,245,1) 100%);
  }
 
  html {
@@ -84,7 +86,7 @@ body {
 /*--------------------*/
 
 *{
-	font-family: Roboto;;
+	font: 20px Roboto;;
 }
 
 
@@ -103,6 +105,15 @@ nav{
 	font-size: 20px;
 }
 
+section{
+	padding: 100px;
+}
+
+h2{
+	font: 30px Joan;
+	margin-bottom: 50px;
+	text-align: center;
+}
 
 /*----------------------*/
 .container {
@@ -116,10 +127,11 @@ nav{
 	margin-bottom: 60px;
 }
 
+
 header .container{
 	height: 800px;
 	background: url(img/main.jpg) no-repeat;
-	background-size: contain;
+	background-size: cover;
 	
 }
 
@@ -156,7 +168,31 @@ header .container{
 	transition: 0.2s;
 }
 
+
 /*--------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------*/
+
+.contact-list{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-item{
+	text-align: center;
+	
+}
+
+.contact-item p{
+	margin-top: 20px;
+}
+
+
+.contact-list a{
+	font-size: 100px;
+	color: black;
+}
+
+section{
+	border-top: 1px dotted black;
